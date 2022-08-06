@@ -1,0 +1,45 @@
+.courses {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.courses > *:first-child {
+    margin-left: 0;
+}
+
+.courses > *:last-child {
+    margin-right: 0;
+}
+
+.courses > * {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.course-item {
+}
+.course-item-title {
+    font-weight: 700;
+    font-size: 19px;
+}
+.course-item-value {
+    font-size: 22px;
+    font-weight: 450;
+}
+
+.course-item-value.top {
+    color: rgb(247, 2, 2);
+}
+
+.course-item-value.bottom {
+    color: rgb(5, 36, 208);
+}
+
+.courses {
+    text-align: center;
+}
+
+.mb-4{
+    color: black;
+    text-justify: auto;
+}
